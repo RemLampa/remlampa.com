@@ -1,0 +1,51 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "airbnb",
+        "plugin:prettier/recommended"
+    ],
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "plugins": [
+        "react",
+        "prettier",
+        "node",
+        "promise",
+        "json",
+        "markdown"
+    ],
+    "rules": {
+        "eol-last": ["error", "always"],
+        "no-multiple-empty-lines": ["error", { "max": 2, "maxEOF": 1 }],
+        "react/jsx-one-expression-per-line": "off",
+        "react/jsx-filename-extension": "off",
+        "react/prop-types": "off",
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [ ".js", ".jsx" ],
+                "paths": [ "src" ]
+            }
+        },
+    },
+    "parser": "babel-eslint",
+    "overrides": [
+        {
+            "files": [
+                "*.test.js",
+                "*.test.jsx",
+            ],
+            "env": {
+                "jest": true,
+                "browser": true,
+                "es6": true
+            },
+            "rules": {
+                "import/no-extraneous-dependencies": "off"
+            }
+        },
+    ]
+}
