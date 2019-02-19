@@ -1,6 +1,7 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
 import { Link, graphql } from 'gatsby';
+import { DiscussionEmbed } from 'disqus-react';
 
 import Bio from '../components/bio';
 import Layout from '../components/layout';
@@ -11,6 +12,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata.title;
   const { previous, next } = pageContext;
+
+  const disqusShortname = 'remlampa';
+  const disqusConfig = {
+    identifier: post.id,
+    title: post.frontmatter.title,
+  };
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -36,11 +43,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
       <ul
         style={{
-          display: `flex`,
-          flexWrap: `wrap`,
-          justifyContent: `space-between`,
-          listStyle: `none`,
+          display: 'flex',
+          flexWrap: 'wrap',
+          justifyContent: 'space-between',
+          listStyle: 'none',
           padding: 0,
+          marginBottom: '5em',
         }}
       >
         <li>
@@ -58,6 +66,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           )}
         </li>
       </ul>
+      <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
     </Layout>
   );
 };
