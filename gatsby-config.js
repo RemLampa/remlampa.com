@@ -14,6 +14,7 @@ module.exports = {
       youtube: 'remlampa',
       photography: 'http://www.lansangan.com',
       email: 'rem@remlampa.com',
+      instagram: 'remlampa',
     },
   },
   plugins: [
