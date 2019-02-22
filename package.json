@@ -32,6 +32,9 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "disqus-react": "^1.0.5",
     "gatsby": "^2.1.4",
     "gatsby-image": "^2.0.29",
