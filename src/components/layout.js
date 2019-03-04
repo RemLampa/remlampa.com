@@ -10,6 +10,14 @@ const Contents = styled.main`
   a {
     transition: color 1s;
   }
+
+  .gatsby-highlight {
+    margin: 2rem 0;
+  }
+
+  hr {
+    margin-top: 5rem;
+  }
 `;
 
 const Footer = styled.footer`
