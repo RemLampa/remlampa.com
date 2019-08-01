@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rem Lampa: On Web Development, Startups & Film Photography]]></title><description><![CDATA[Rem Lampa is an engineer turned web developer.]]></description><link>https://www.remlampa.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 27 Jun 2019 14:51:54 GMT</lastBuildDate><item><title><![CDATA[Building a Private NPM Package Part I (Local Development)]]></title><description><![CDATA[There will come a point when there’s a piece of JavaScript code that you wrote that often gets used in your projects, and you end up copying…]]></description><link>https://www.remlampa.com/building-private-npm-package-part-i/</link><guid isPermaLink="false">https://www.remlampa.com/building-private-npm-package-part-i/</guid><pubDate>Mon, 04 Mar 2019 14:20:03 GMT</pubDate><content:encoded>&lt;p&gt;There will come a point when there’s a piece of JavaScript code that you wrote that often gets used in your projects, and you end up copying and pasting it across all projects that need it.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rem Lampa: On Web Development, Startups & Film Photography]]></title><description><![CDATA[Rem Lampa is an engineer turned web developer.]]></description><link>https://www.remlampa.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 01 Aug 2019 19:32:45 GMT</lastBuildDate><item><title><![CDATA[The Academic Myth]]></title><description><![CDATA[There’s a growing consciousness about the failure and myth of the academic system. Don’t believe me? Well, try watching this video and…]]></description><link>https://www.remlampa.com/the-academic-myth/</link><guid isPermaLink="false">https://www.remlampa.com/the-academic-myth/</guid><pubDate>Fri, 02 Aug 2019 01:40:03 GMT</pubDate><content:encoded>&lt;p&gt;There’s a growing consciousness about the failure and myth of the academic system.&lt;/p&gt;
+&lt;p&gt;Don’t believe me? Well, try watching this video and others like it:&lt;/p&gt;
+&lt;p&gt;
+          &lt;div
+            class=&quot;gatsby-resp-iframe-wrapper&quot;
+            style=&quot;padding-bottom: 56.39999999999999%; position: relative; height: 0; overflow: hidden;margin-bottom: 1.0725rem&quot;
+          &gt;
+            &lt;div class=&quot;embedVideo-container&quot;&gt;
+            &lt;iframe src=&quot;https://www.youtube.com/embed/equujEYspCY?rel=0&quot; class=&quot;embedVideo-iframe&quot; style=&quot;border:0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          &quot; allowfullscreen&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/p&gt;
+&lt;p&gt;In fact, some of the top tech companies in the US have stopped requiring degrees.&lt;/p&gt;
+&lt;p&gt;Sure, the school system might have worked for a few decades. But in today’s world,
+can someone honestly say that having a degree guarantees a fulfilling and well-paying
+job/career for the majority of its holders?&lt;/p&gt;
+&lt;p&gt;I happened to catch a morning radio show the other day. And their topic was “I hold
+a degree from a top school but my pay is s**t”. The callers, they had stories very
+close to mine: 10 years or so of being employees, earning Php 30k-40k a month. Enough
+to live by, but never going to get them anywhere near achieving financial freedom.&lt;/p&gt;
+&lt;p&gt;One of the DJs joked that his co-host earns four times their monthly salaries, hosting
+wedding receptions for 2 hours! Four times an engineer’s salary making people play
+musical chairs!&lt;/p&gt;
+&lt;p&gt;The radio show’s respondents were allegedly alumni of UP, Ateneo, La Salle…
+Engineers, teachers, accountants, doctors… Some have graduate degrees even! You
+can sense an absence of hope in their voices. These are people resigned to their
+fates.&lt;/p&gt;
+&lt;p&gt;Worse, this kind of system suppresses talent. I know a lot of great and promising
+individuals who have been reduced to being pencil-pushers. These people could’ve
+made significant impact on our society, but there they are drowning in the tar pits
+of corporate politics &amp;#x26; bureaucracy and the dreaded metro traffic.&lt;/p&gt;
+&lt;p&gt;And for one full decade, I was one of them!&lt;/p&gt;
+&lt;p&gt;We were led to believe that going to school was the only way to have a successful
+life. You had to have a diploma or you’re deemed as a failure!&lt;/p&gt;
+&lt;p&gt;And it has exarcerbated the culture of resignation.&lt;/p&gt;
+&lt;p&gt;“Di kasi ako Atenista.”&lt;/p&gt;
+&lt;p&gt;“Di ako nakatapos kaya hanggang dito na lang ako.”&lt;/p&gt;
+&lt;p&gt;“Hayskul lang inabot ko e.”&lt;/p&gt;
+&lt;p&gt;Really? That’s it? You don’t finish school, or graduate from a prestigious school,
+and you’re suddenly out of options?! Kinda sounds like an elaborate scam, doesn’t
+it? And this is the kind of one-track mindset that has been plaguing us.&lt;/p&gt;
+&lt;p&gt;Technology is one of life’s greatest equalizers. There’s already plenty of options
+out there that don’t need a college diploma: virtual freelancing, vlogging, social
+media content creation, livestreaming, professional gaming, online trading, urban
+farming, founding startups, photography, real-estate flipping, dropshipping, and
+even building traditional businesses and many others… Don’t tell me these aren’t
+real jobs/careers, because I’ll take these “fake jobs” over what society considers
+“real jobs” any day. I know you probably would too.&lt;/p&gt;
+&lt;p&gt;Heck, you don’t even have to go to college nowadays to get a college-level
+education. Many of the Ivy League lectures are now available for FREE on the Internet!
+Granted, you won’t get the diploma along with it, but if you were only after the
+learnings, you’re all set.&lt;/p&gt;
+&lt;p&gt;There’s this one math concept (among many others) that has baffled me since college.
+I decided to take a free online course on Coursera just recently, albeit to study
+a different but related topic. Incidentally, right on the very first hour, the instructor
+managed to discuss that math concept in the clearest, most concise terms.&lt;/p&gt;
+&lt;p&gt;The instructor made me understand in less than an hour a concept I had difficulty
+grasping during the past two decades! And I don’t have to pay a single cent (payment
+is optional; I’m still planning to pay since it’s worth every dollar).&lt;/p&gt;
+&lt;p&gt;The career I’m currently enjoying is not caused by my engineering degree and license.
+It is a product of a non-profit educational service, &lt;a href=&quot;https://www.freecodecamp.org&quot;&gt;freeCodeCamp&lt;/a&gt;,
+an online platform where many people like myself learn web development FOR FREE.
+And freeCodeCamp is arguably the largest curated resource of programming knowledge
+there is today! Again, &lt;em&gt;EVERYTHING FOR FREE&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;Makes you think, with knowledge easily acquired and freely available on demand, is
+the traditional school system finally moving towards a long overdue obsolescence?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Building a Private NPM Package Part I (Local Development)]]></title><description><![CDATA[There will come a point when there’s a piece of JavaScript code that you wrote that often gets used in your projects, and you end up copying…]]></description><link>https://www.remlampa.com/building-private-npm-package-part-i/</link><guid isPermaLink="false">https://www.remlampa.com/building-private-npm-package-part-i/</guid><pubDate>Mon, 04 Mar 2019 14:20:03 GMT</pubDate><content:encoded>&lt;p&gt;There will come a point when there’s a piece of JavaScript code that you wrote that often gets used in your projects, and you end up copying and pasting it across all projects that need it.&lt;/p&gt;
 &lt;p&gt;If you’ve experienced this, I’ve come to tell you that there is definitely a better way of sharing pieces of JavaScript code between your projects: create a local NPM package!&lt;/p&gt;
 &lt;h3&gt;TL;DR&lt;/h3&gt;
 &lt;p&gt;The code for the NPM package is available at &lt;a href=&quot;https://github.com/RemLampa/npm-package-tutorial&quot;&gt;https://github.com/RemLampa/npm-package-tutorial&lt;/a&gt;.&lt;/p&gt;
@@ -35,7 +106,7 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;
 
 &lt;span class=&quot;token function&quot;&gt;printFromPackage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Let’s run the demo:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; /path/to/npm-package-demo
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; /path/to/npm-package-demo
 $ node index.js&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;We’ll be encountering an error similar to this:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;internal/modules/cjs/loader.js:583
@@ -53,33 +124,33 @@ Error: Cannot &lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt; mod
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Again, we are met with another error:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; code E404
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; 404 Not Found - GET https://registry.npmjs.org/npm-package-tutorial - Not found
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; 404
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; 404  &lt;span class=&quot;token string&quot;&gt;&apos;npm-package-tutorial@latest&apos;&lt;/span&gt; is not &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; the &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; registry.
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; 404 Your package name is not valid, because
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; 404  1. name can only contain URL-friendly characters
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; 404 It was specified as a dependency of &lt;span class=&quot;token string&quot;&gt;&apos;npm-package-demo&apos;&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; 404
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; 404 Note that you can also &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; from a
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; 404 tarball, folder, http url, or &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; url.
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt; Not Found - GET https://registry.npmjs.org/npm-package-tutorial - Not found
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;  &lt;span class=&quot;token string&quot;&gt;&apos;npm-package-tutorial@latest&apos;&lt;/span&gt; is not &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; the &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; registry.
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt; Your package name is not valid, because
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;. name can only contain URL-friendly characters
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt; It was specified as a dependency of &lt;span class=&quot;token string&quot;&gt;&apos;npm-package-demo&apos;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt; Note that you can also &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; from a
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt; tarball, folder, http url, or &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; url.
 
 &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; A complete log of this run can be found in:
 &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;     /some-folder-in-your-filesystem/.npm/_logs/2019-03-04T05_24_10_963Z-debug.log&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;By default, NPM will try to download the package from its online registry (&lt;a href=&quot;https://registry.npmjs.org&quot;&gt;https://registry.npmjs.org&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;We will have to tell NPM to find the package from our local environment on our development machine instead. We do this by first calling &lt;code class=&quot;language-text&quot;&gt;npm link&lt;/code&gt; inside our package directory:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; /path/to/npm-package-tutorial
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; /path/to/npm-package-tutorial
 $ &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;link&lt;/span&gt;
 &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; notice created a lockfile as package-lock.json. You should commit this file.
 &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; WARN npm-package-tutorial@1.0.0 No description
 
-up to &lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; 1.148s
-found 0 vulnerabilities
+up to &lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;.148s
+found &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; vulnerabilities
 
 /path/to/lib/node_modules/npm-package-tutorial -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; /path/to/npm-package-tutorial&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;npm link&lt;/code&gt; just created a global link (or symlink) and made it available in our development environment and named it according to the &lt;code class=&quot;language-text&quot;&gt;name&lt;/code&gt; property provided in the package’s &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt; (not the name of the current directory).&lt;/p&gt;
 &lt;p&gt;So if we run &lt;code class=&quot;language-text&quot;&gt;npm install&lt;/code&gt; again inside our project directory, it will now recognize our local package, right? Not quite.&lt;/p&gt;
 &lt;p&gt;We still need to explicitly tell NPM that our project should search for &lt;code class=&quot;language-text&quot;&gt;npm-package-tutorial&lt;/code&gt; from our local “registry”, again using &lt;code class=&quot;language-text&quot;&gt;npm link&lt;/code&gt; but this time, providing the name of the linked package:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; /path/to/npm-package-demo
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; /path/to/npm-package-demo
 $ &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;link&lt;/span&gt; npm-package-tutorial
 /path/to/npm-package-demo/node_modules/npm-package-tutorial -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; /path/to/lib/node_modules/npm-package-tutorial -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; /path/to/npm-package-tutorial&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Compare the paths from the ones we got from the link we did inside &lt;code class=&quot;language-text&quot;&gt;npm-package-tutorial&lt;/code&gt;. Notice any similarities?&lt;/p&gt;
@@ -106,7 +177,7 @@ Hello from package&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Next Steps&lt;/h3&gt;
 &lt;p&gt;Any change that you make inside your package directory will reflect on any project that uses it. The sky is the limit for you now. You can create complex packages like distributable React components and reuse them in your projects.&lt;/p&gt;
 &lt;p&gt;On the second of this three-part series, I will discuss how to share our package by letting other people install it from a remote Git repository.&lt;/p&gt;
-&lt;p&gt;Thanks for reading!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Fostering an Inclusive Philippine Startup Community]]></title><description><![CDATA[The following was originally posted in Startup PH regarding this article.No mention of the Philippines… Again! Will we ever be able to catch…]]></description><link>https://www.remlampa.com/fostering-an-inclusive-philippine-startup-community/</link><guid isPermaLink="false">https://www.remlampa.com/fostering-an-inclusive-philippine-startup-community/</guid><pubDate>Tue, 19 Feb 2019 12:43:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;The following was originally posted in &lt;a href=&quot;https://www.facebook.com/groups/startupph/permalink/2099244236833497/&quot;&gt;Startup PH&lt;/a&gt; regarding &lt;a href=&quot;https://techcollectivesea.com/2019/02/19/whats-next-for-tech-unicorns-in-southeast-asia/&quot;&gt;this article&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Thanks for reading!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Fostering an Inclusive Philippine Startup Community]]></title><description><![CDATA[The following was originally posted in Startup PH regarding this article. No mention of the Philippines… Again! Will we ever be able to…]]></description><link>https://www.remlampa.com/fostering-an-inclusive-philippine-startup-community/</link><guid isPermaLink="false">https://www.remlampa.com/fostering-an-inclusive-philippine-startup-community/</guid><pubDate>Tue, 19 Feb 2019 12:43:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;The following was originally posted in &lt;a href=&quot;https://www.facebook.com/groups/startupph/permalink/2099244236833497/&quot;&gt;Startup PH&lt;/a&gt; regarding &lt;a href=&quot;https://techcollectivesea.com/2019/02/19/whats-next-for-tech-unicorns-in-southeast-asia/&quot;&gt;this article&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;No mention of the Philippines… Again! Will we ever be able to catch up in our lifetime?&lt;/p&gt;
 &lt;p&gt;We need a culture change. Help each other up. I’ve heard horror stories  of gatekeepers in the startup community, even here in this group. I  have yet to experience one myself (thank goodness?) since I’ve just been lurking for the longest time. But I’ll be the first one to admit that  it’s the one thing that keeps me from interacting with the startup  community.&lt;/p&gt;
 &lt;p&gt;But that has to stop. I mean, why is there even a  gate? What is it protecting? Reality check: we don’t have an innovative  culture yet. At least not yet at par with our ASEAN neighbors.&lt;/p&gt;
