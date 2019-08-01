@@ -60,6 +60,14 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: 'gatsby-remark-embed-video',
+            options: {
+              width: 500,
+              related: false,
+              noIframeBorder: true,
+            },
+          },
+          {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 590,
