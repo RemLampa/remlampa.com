@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rem Lampa: On Web Development, Startups & Film Photography]]></title><description><![CDATA[Rem Lampa is an engineer turned web developer.]]></description><link>https://www.remlampa.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 01 Aug 2019 19:32:45 GMT</lastBuildDate><item><title><![CDATA[The Academic Myth]]></title><description><![CDATA[There’s a growing consciousness about the failure and myth of the academic system. Don’t believe me? Well, try watching this video and…]]></description><link>https://www.remlampa.com/the-academic-myth/</link><guid isPermaLink="false">https://www.remlampa.com/the-academic-myth/</guid><pubDate>Fri, 02 Aug 2019 01:40:03 GMT</pubDate><content:encoded>&lt;p&gt;There’s a growing consciousness about the failure and myth of the academic system.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rem Lampa: On Web Development, Startups & Film Photography]]></title><description><![CDATA[Rem Lampa is an engineer turned web developer.]]></description><link>https://www.remlampa.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 13 Aug 2019 12:30:26 GMT</lastBuildDate><item><title><![CDATA[Compiling Tagged GraphQL Query Literals in TypeScript with Rollup]]></title><description><![CDATA[I am currently converting our company’s soon-to-be open-source NPM library from
+JavaScript to TypeScript; and earlier today,
+I got stuck on…]]></description><link>https://www.remlampa.com/compiling-graphql-query-literals-typescript-rollup/</link><guid isPermaLink="false">https://www.remlampa.com/compiling-graphql-query-literals-typescript-rollup/</guid><pubDate>Tue, 13 Aug 2019 20:19:03 GMT</pubDate><content:encoded>&lt;p&gt;I am currently converting our company’s soon-to-be open-source NPM library from
+JavaScript to &lt;a href=&quot;https://www.typescriptlang.org/&quot;&gt;TypeScript&lt;/a&gt;; and earlier today,
+I got stuck on a roadblock.&lt;/p&gt;
+&lt;p&gt;I’m using &lt;a href=&quot;https://rollupjs.org/&quot;&gt;Rollup&lt;/a&gt; and &lt;a href=&quot;https://www.npmjs.com/package/rollup-plugin-typescript2&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;rollup-plugin-typescript2&lt;/code&gt;&lt;/a&gt;
+to compile and bundle the library. Unfortunately, it does not have support for
+GraphQL queries tagged by &lt;a href=&quot;https://www.npmjs.com/package/graphql-tag&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;graphql-tag&lt;/code&gt;&lt;/a&gt;.
+Worse, since Rollup is a relatively new bundling tool (compared to something like
+&lt;a href=&quot;https://webpack.js.org/&quot;&gt;Webpack&lt;/a&gt;), there’s not much information out there on how
+to configure it to compile GraphQL tagged literals.&lt;/p&gt;
+&lt;p&gt;Through hours of digging through Google and library documentation, I found this
+package called &lt;a href=&quot;https://www.npmjs.com/package/ts-transform-graphql-tag&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;ts-transform-graphql-tag&lt;/code&gt;&lt;/a&gt;.
+There’s another problem though, while the package’s README, discusses how to
+integrate it with Webpack and &lt;a href=&quot;https://fuse-box.org/&quot;&gt;Fusebox&lt;/a&gt;, it doesn’t mention
+anything about Rollup.&lt;/p&gt;
+&lt;p&gt;Miraculously, I found a way to make it work. Here’s how to do it:&lt;/p&gt;
+&lt;p&gt;First, install the package:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; ts-transform-graphql-tag --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then in &lt;code class=&quot;language-text&quot;&gt;rollup.config.js&lt;/code&gt;, add the following:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// imports...&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; typescript &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;rollup-plugin-typescript2&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; getTransformer &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;ts-transform-graphql-tag&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;graphQLTransformer&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  before&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getTransformer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    input&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;src/index.ts&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// rollup options...&lt;/span&gt;
+    plugins&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+      &lt;span class=&quot;token comment&quot;&gt;// rollup plugins...&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;typescript&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;// typescript plugin options...&lt;/span&gt;
+        transformers&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;graphQLTransformer&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That’s it! Do take note that at the time of writing
+(&lt;code class=&quot;language-text&quot;&gt;rollup-plugin-typescript&lt;/code&gt; v0.22.1), TypeScript transformers are still in
+experimental stage. It also requires TypeScript version 2.4.1 and up.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Academic Myth]]></title><description><![CDATA[There’s a growing consciousness about the failure and myth of the academic system. Don’t believe me? Well, try watching this video and…]]></description><link>https://www.remlampa.com/the-academic-myth/</link><guid isPermaLink="false">https://www.remlampa.com/the-academic-myth/</guid><pubDate>Fri, 02 Aug 2019 01:40:03 GMT</pubDate><content:encoded>&lt;p&gt;There’s a growing consciousness about the failure and myth of the academic system.&lt;/p&gt;
 &lt;p&gt;Don’t believe me? Well, try watching this video and others like it:&lt;/p&gt;
 &lt;p&gt;
           &lt;div
