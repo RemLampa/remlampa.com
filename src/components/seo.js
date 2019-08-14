@@ -9,7 +9,17 @@ const detailsQuery = graphql`
       siteMetadata {
         title
         description
+        siteUrl
         author
+        image {
+          src
+          height
+          width
+          alt
+        }
+        facebook {
+          appId
+        }
       }
     }
   }
@@ -22,6 +32,7 @@ function SEO({ description, lang, meta, keywords, title }) {
       render={data => {
         const metaDescription =
           description || data.site.siteMetadata.description;
+
         return (
           <Helmet
             htmlAttributes={{
@@ -43,8 +54,32 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
               {
+                property: `og:url`,
+                content: data.site.siteMetadata.siteUrl,
+              },
+              {
                 property: `og:type`,
                 content: `website`,
+              },
+              {
+                property: `og:image`,
+                content: data.site.siteMetadata.image.src,
+              },
+              {
+                property: `og:image:height`,
+                content: data.site.siteMetadata.image.height,
+              },
+              {
+                property: `og:image:width`,
+                content: data.site.siteMetadata.image.width,
+              },
+              {
+                property: `og:image:alt`,
+                content: data.site.siteMetadata.image.alt,
+              },
+              {
+                property: `fb:app_id`,
+                content: data.site.siteMetadata.facebook.appId,
               },
               {
                 name: `twitter:card`,

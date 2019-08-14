@@ -4,6 +4,15 @@ module.exports = {
     author: 'Rem Lampa',
     description: 'Rem Lampa is an engineer turned web developer.',
     siteUrl: 'https://www.remlampa.com',
+    image: {
+      src: 'https://www.remlampa.com/profile-pic.jpg',
+      height: '513',
+      width: '513',
+      alt: 'Rem Lampa',
+    },
+    facebook: {
+      appId: '475047029994711',
+    },
     social: {
       twitter: 'remlampa',
       facebook: 'remlampa',
