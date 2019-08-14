@@ -9,7 +9,17 @@ I got stuck on a roadblock.
 
 I'm using [Rollup](https://rollupjs.org/) and [`rollup-plugin-typescript2`](https://www.npmjs.com/package/rollup-plugin-typescript2)
 to compile and bundle the library. Unfortunately, it does not have support for
-GraphQL queries tagged by [`graphql-tag`](https://www.npmjs.com/package/graphql-tag).
+GraphQL queries tagged by [`graphql-tag`](https://www.npmjs.com/package/graphql-tag):
+
+```javascript
+import gql from 'graphql-tag';
+
+// this produces "gql is not defined" error
+const SOME_QUERY = gql`
+  ...some graphql query
+`;
+```
+
 Worse, since Rollup is a relatively new bundling tool (compared to something like
 [Webpack](https://webpack.js.org/)), there's not much information out there on how
 to configure it to compile GraphQL tagged literals.
