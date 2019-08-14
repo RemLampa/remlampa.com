@@ -19,8 +19,14 @@ JavaScript to <a href="https://www.typescriptlang.org/">TypeScript</a>; and earl
 I got stuck on a roadblock.</p>
 <p>I’m using <a href="https://rollupjs.org/">Rollup</a> and <a href="https://www.npmjs.com/package/rollup-plugin-typescript2"><code class="language-text">rollup-plugin-typescript2</code></a>
 to compile and bundle the library. Unfortunately, it does not have support for
-GraphQL queries tagged by <a href="https://www.npmjs.com/package/graphql-tag"><code class="language-text">graphql-tag</code></a>.
-Worse, since Rollup is a relatively new bundling tool (compared to something like
+GraphQL queries tagged by <a href="https://www.npmjs.com/package/graphql-tag"><code class="language-text">graphql-tag</code></a>:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> gql <span class="token keyword">from</span> <span class="token string">'graphql-tag'</span><span class="token punctuation">;</span>
+
+<span class="token comment">// this produces "gql is not defined" error</span>
+<span class="token keyword">const</span> <span class="token constant">SOME_QUERY</span> <span class="token operator">=</span> gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  ...some graphql query
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span></code></pre></div>
+<p>Worse, since Rollup is a relatively new bundling tool (compared to something like
 <a href="https://webpack.js.org/">Webpack</a>), there’s not much information out there on how
 to configure it to compile GraphQL tagged literals.</p>
 <p>Through hours of digging through Google and library documentation, I found this
