@@ -11,6 +11,7 @@ import { rhythm, scale } from '../utils/typography';
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata.title;
+  const { subTitle } = data.site.siteMetadata;
   const { previous, next } = pageContext;
 
   const disqusShortname = 'remlampa';
@@ -20,7 +21,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   };
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={siteTitle} subTitle={subTitle}>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
       <h1>{post.frontmatter.title}</h1>
       <p
@@ -78,6 +79,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        subTitle
         author
       }
     }

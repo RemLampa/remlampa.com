@@ -35,51 +35,71 @@ const Footer = styled.footer`
   }
 `;
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ location, title, subTitle, children }) => {
   // eslint-disable-next-line no-undef
   const rootPath = `${__PATH_PREFIX__}/`;
   let header;
 
   if (location.pathname === rootPath) {
     header = (
-      <h1
-        style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
-        }}
-      >
-        <Link
+      <>
+        <h1
           style={{
-            boxShadow: `none`,
-            textDecoration: `none`,
-            color: `inherit`,
+            ...scale(1.5),
+            marginTop: 0,
+            marginBottom: rhythm(0.25),
           }}
-          to="/"
         >
-          {title}
-        </Link>
-      </h1>
+          <Link
+            style={{
+              boxShadow: `none`,
+              textDecoration: `none`,
+              color: `inherit`,
+            }}
+            to="/"
+          >
+            {title}
+          </Link>
+        </h1>
+        <h3
+          style={{
+            marginBottom: rhythm(1.5),
+            marginTop: 0,
+          }}
+        >
+          {subTitle}
+        </h3>
+      </>
     );
   } else {
     header = (
-      <h3
-        style={{
-          fontFamily: `Montserrat, sans-serif`,
-          marginTop: 0,
-        }}
-      >
-        <Link
+      <>
+        <h3
           style={{
-            boxShadow: `none`,
-            textDecoration: `none`,
-            color: `inherit`,
+            fontFamily: `Montserrat, sans-serif`,
+            marginTop: 0,
+            marginBottom: rhythm(0.25),
           }}
-          to="/"
         >
-          {title}
-        </Link>
-      </h3>
+          <Link
+            style={{
+              boxShadow: `none`,
+              textDecoration: `none`,
+              color: `inherit`,
+            }}
+            to="/"
+          >
+            {title}
+          </Link>
+        </h3>
+        <h5
+          style={{
+            marginTop: 0,
+          }}
+        >
+          {subTitle}
+        </h5>
+      </>
     );
   }
 

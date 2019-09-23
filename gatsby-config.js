@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Rem Lampa: On Web Development, Startups & Film Photography',
+    title: 'Rem Lampa',
+    subTitle: 'On Web Development, Startups & Film Photography',
     author: 'Rem Lampa',
     description: 'Rem Lampa is an engineer turned web developer.',
     siteUrl: 'https://www.remlampa.com',
